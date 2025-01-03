@@ -585,7 +585,7 @@
     {
       "type": "Microsoft.Web/sites",
       "apiVersion": "2018-11-01",
-      "name": "[parameters('logicAppFEname')]",
+      "name": "[parameters('appInsightName')]",
       "location": "[parameters('location')]",
       "dependsOn": [
         "[concat('Microsoft.Web/serverfarms/', parameters('hostingPlanFEName'))]"
